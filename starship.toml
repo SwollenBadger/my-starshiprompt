@@ -1,0 +1,137 @@
+palette = "catppuccin_mocha"
+
+format = """
+ $character\
+$os\
+$directory\
+$git_branch\
+"""
+right_format = """$all"""
+
+add_newline = false
+
+# OS
+[battery]
+disabled=true
+
+[os]
+disabled = true
+format = "[ ]($style)"
+style = "bold mauve"
+
+[directory]
+read_only = " 󰌾"
+style = "bold mauve"
+home_symbol = "Home"
+truncation_length = 3
+truncation_symbol= "@/"
+truncate_to_repo=false
+
+[docker_context]
+symbol = " "
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[](bold green) '
+error_symbol = '[](bold maroon) ' 
+
+[cmd_duration]
+format=" [󱑁 $duration](bold pink)"
+min_time = 1
+show_notifications = false
+disabled = false
+
+# Branch
+[git_branch]
+format = "on [$symbol$branch(:$remote_branch)]($style) "
+style = "blue"
+symbol = " "
+truncation_length = 16
+
+# Programming
+[c]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[dart]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[haxe]
+symbol = " "
+
+[java]
+symbol = " "
+
+[julia]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[python]
+symbol = " "
+
+[rlang]
+symbol = "󰟔 "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+# Disable modules
+[line_break]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_status]
+disabled = true
+
+[package]
+disabled = true
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
